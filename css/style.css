@@ -1,0 +1,59 @@
+
+
+[id^="terminal_"]{
+    transition: fill 1s, transform 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+[id^="terminal_"]:hover{
+    fill: red;
+    transform: scale(1.2);
+
+}
+
+[id^="routeline_"]{
+    transition: stroke 1s, stroke-width 1s;
+    transform-origin: center;
+    transform-box: stroke-box;
+    
+}
+
+
+[id^="routeline_"]:hover{
+    stroke: red;
+    stroke-width: 16px;
+    
+}
+
+
+
+[id^="popup_"]{
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.popup-open{
+    opacity: 1;
+}
+
+[id^="stop_"]{
+    transition: fill 1s, transform 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+[id^="stop_"]:hover{
+    transform: scale(1.8);
+    
+}
+
+
+.line-active{
+    transform: scale(1.8);
+}
+
+.busstop-active{
+    stroke: red;
+    stroke-width: 16px;
+}
